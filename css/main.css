@@ -1,0 +1,116 @@
+body
+{
+    background-color: #d3d8f1;
+    font-family: Microsoft Yahei UI, 微软雅黑, Noto Sans CJK;
+}
+
+/** Layout Adjustment **/
+h1, h2, h3
+{
+    letter-spacing: 0.1em;
+}
+.head-introducer
+{
+    letter-spacing: 0.2em;
+}
+p
+{
+    padding-top: 0.6em;
+}
+
+
+
+.btn-icon
+{
+    padding-right: 0.5em;
+}
+
+.single-image-row
+{
+    margin: 20px 0;
+}
+
+.center-image
+{
+    margin: 0 auto;
+}
+
+.media
+{
+    padding-top: 3em;
+}
+
+.media-left .media-object
+{
+    margin-right: 1.5em;
+}
+.media-right .media-object
+{
+    margin-left: 1.5em;
+}
+
+/** Layout adjustment tools **/
+/** TODO: 可能要把这个部分取消，直接将margin-top属性应用到row当中 **/
+.splitter-row
+{
+    margin-top: 2em;
+}
+
+.right-align
+{
+    right: 0;
+    position: relative;
+}
+
+/** Color definition **/
+.text-grey
+{
+    color: grey;
+}
+
+.text-white
+{
+    color: #dadada;
+}
+
+/** Element Decorations **/
+
+.single-image-background
+{
+    background-color: #343436;
+    border-style: solid;
+    border-color: #7C7C81;
+    border-width: 6px;
+}
+
+.span-emphasize
+{
+    font-size: 2.5rem;
+}
+
+.quoter
+{
+    font-style: italic;
+    color: grey;
+    padding: 1.5em 0 1.0em 1.5em;
+}
+
+.footer-content
+{
+    color: #dadada;
+}
+
+/** Layout blocks **/
+#Top-bar
+{
+    background-color: rgba(18, 59, 185, 0.69);
+    height: 4em;
+}
+
+footer
+{
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    margin-top: 7em;
+    background-color: black;
+}
