@@ -1,24 +1,28 @@
 body
 {
-    background-color: #d3d8f1;
+    background-color: #bababa;
     font-family: Microsoft Yahei UI, 微软雅黑, Noto Sans CJK;
 }
 
 /** Layout Adjustment **/
 h1, h2, h3
 {
-    letter-spacing: 0.1em;
-}
-.head-introducer
-{
     letter-spacing: 0.2em;
+}
+.head-introducer p
+{
+    letter-spacing: 0.2em !important;
 }
 p
 {
     padding-top: 0.6em;
+    letter-spacing: 0.1em;
 }
 
-
+.media-body h4
+{
+    letter-spacing: 0.3em;
+}
 
 .btn-icon
 {
